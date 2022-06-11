@@ -67,7 +67,7 @@ export function Header() {
           <Box mr="4" textAlign="right">
             <Text>Tadeu Tupinambá</Text>
             <Text color="gray.300" fontSize="small">
-              tadeu.tupiz@gmail.com{" "}
+              tadeu.tupiz@gmail.com
             </Text>
           </Box>
 

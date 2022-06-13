@@ -73,14 +73,14 @@ export default function Dashboard() {
 
         {/* flex=1 the component will take the space which is available */}
         <SimpleGrid flex="1" gap="4" minChildWidth="320px">
-          <Box p="8" bgColor="gray.800" borderRadius={8} pb="4">
+          <Box p={["4", "8"]} bgColor="gray.800" borderRadius={8} pb="4">
             <Text fontSize="lg" mb="4">
               Inscritos da semana
             </Text>
             <Chart type="area" height={160} options={options} series={series} />
           </Box>
 
-          <Box p="8" bgColor="gray.800" borderRadius={8}>
+          <Box p={["4", "8"]} bgColor="gray.800" borderRadius={8}>
             <Text fontSize="lg" mb="4">
               Taxa de abertura
             </Text>
